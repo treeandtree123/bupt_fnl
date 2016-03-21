@@ -1,0 +1,68 @@
+.rectangle{
+	height: 400px;
+	width: 800px;
+	position: absolute;
+	margin:auto;
+	background-color: #ccc;
+	overflow: hidden;
+	left:50%;
+	top: 50%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%); 		/* IE 9 */
+	-moz-transform:translate(-50%,-50%); 	/* Firefox */
+	-webkit-transform:translate(-50%,-50%); 	/* Safari 和 Chrome */
+}
+
+.radius-1{
+	border-radius: 50%;
+	background-color: #fc0;
+	height: 200px;
+	width: 200px;
+	margin-top: -100px;
+	margin-left: -100px;
+	top: 0;
+	left: 0;
+}
+
+.radius-2{
+	border-radius: 50%;
+	background-color: #fc0;
+	height: 200px;
+	width: 200px;
+	margin-bottom: -100px;
+	margin-right: -100px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.img-1{
+	height: 120px;
+	width: 120px;
+	position: absolute;
+	left:32%;
+	top: 38%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%); 		/* IE 9 */
+	-moz-transform:translate(-50%,-50%); 	/* Firefox */
+	-webkit-transform:translate(-50%,-50%); 	/* Safari 和 Chrome */
+	z-index: 1;
+	transform:rotate(15deg);
+	-webkit-transform:rotate(15deg);
+
+}
+
+.img-2{
+	height: 120px;
+	width: 120px;
+	position: absolute;
+	left:52%;
+	top: 38%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%); 		/* IE 9 */
+	-moz-transform:translate(-50%,-50%); 	/* Firefox */
+	-webkit-transform:translate(-50%,-50%); 	/* Safari 和 Chrome */
+	z-index: 1;
+	transform:rotate(-15deg);
+	-webkit-transform:rotate(-15deg);
+}
